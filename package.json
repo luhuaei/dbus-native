@@ -42,9 +42,7 @@
     "hexy": "^0.2.10",
     "long": "^4.0.0",
     "optimist": "^0.6.1",
-    "put": "0.0.6",
-    "safe-buffer": "^5.1.1",
-    "xml2js": "^0.4.17"
+    "put": "0.0.6"
   },
   "optionalDependencies": {
     "abstract-socket": "^2.0.0"
@@ -64,8 +62,10 @@
     "mocha": "*",
     "node-libs-browser": "^2.2.1",
     "prettier": "^1.7.4",
+    "safe-buffer": "^5.2.1",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "xml2js": "^0.4.23"
   },
   "scripts": {
     "lint": "npm run lint:docs && npm run lint:code",
